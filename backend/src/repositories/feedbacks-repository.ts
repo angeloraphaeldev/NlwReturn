@@ -6,5 +6,3 @@ export interface FeedbackCreateData {
 export interface FeedbacksRepository {
   create: (data: FeedbackCreateData) => Promise<void>;
 }
-
-// Dirá quais funçoes utilizaremos na nossa aplicação

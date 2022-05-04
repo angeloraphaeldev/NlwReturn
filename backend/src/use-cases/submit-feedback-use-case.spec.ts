@@ -50,12 +50,3 @@ describe("Submit feedback", () => {
     ).rejects.toThrow();
   });
 });
-
-// test("sum 2+ 2", () => {
-//   expect(2 + 2).toBe(4);
-// });
-
-/**
- * Describe - Criar uma suite de testes para uma unica funcionalidade
- * spies - saber se dentro do teste uma função foi chamado
- */
